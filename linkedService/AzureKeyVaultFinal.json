@@ -1,0 +1,10 @@
+{
+	"name": "AzureKeyVaultFinal",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://AdedayoKeyVault.vault.azure.net/"
+		}
+	}
+}
