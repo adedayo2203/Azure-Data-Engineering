@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy customer table",
+				"name": "Copy customer table Pipeline",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
