@@ -97,7 +97,13 @@
 							"outputs": [
 								{
 									"referenceName": "parquet_all_table",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"schemaname": {
+											"value": "item.schemaName",
+											"type": "Expression"
+										}
+									}
 								}
 							]
 						}
