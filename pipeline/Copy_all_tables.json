@@ -1,6 +1,7 @@
 {
-	"name": "pipeline1",
+	"name": "Copy_all_tables",
 	"properties": {
+		"description": "Pipeline to copy all the tables in a sql database.",
 		"annotations": []
 	}
 }
