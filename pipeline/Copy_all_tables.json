@@ -30,9 +30,16 @@
 				}
 			},
 			{
-				"name": "ForEach1",
+				"name": "ForEachSchemaTable",
 				"type": "ForEach",
-				"dependsOn": [],
+				"dependsOn": [
+					{
+						"activity": "Look_for_all_tables",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
 				"userProperties": []
 			}
 		],
