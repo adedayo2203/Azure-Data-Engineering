@@ -1,0 +1,24 @@
+{
+	"name": "parquet_all_table",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"schemaname": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "semistructureddata"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
